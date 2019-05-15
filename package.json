@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-nc_ursa2",
+  "name": "eslint-config-nc_ursa",
   "version": "0.1.0",
   "description": "Normcore URSA NHU js rule",
   "main": "",
@@ -26,19 +26,9 @@
   },
   "homepage": "https://github.com/LunaYJ/eslint-config-nc_ursa#readme",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-node": "^9.0.1",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint": "^5.16.0"
   },
   "peerDependencies": {
-    "eslint": ">= 5",
-    "eslint-plugin-import": ">=2.13.0",
-    "eslint-plugin-node": ">=7.0.0",
-    "eslint-plugin-promise": ">=4.0.0",
-    "eslint-plugin-standard": ">=4.0.0",
-    "eslint-config-standard": "^12.0.0"
+    "eslint": ">= 5"
   }
 }
