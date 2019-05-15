@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-nc_ursa",
-  "version": "1.0.0",
+  "name": "eslint-config-ursa",
+  "version": "0.1.0",
   "description": "Normcore URSA NHU js rule",
   "main": "",
   "scripts": {
