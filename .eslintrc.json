@@ -31,7 +31,7 @@
     "curly": ["error", "multi-line"],
     "dot-location": ["error", "property"],
     "eol-last": "error",
-    "eqeqeq": ["error", "always", { "null": "ignore" }],
+    "eqeqeq": ["error", "always"],
     "func-call-spacing": ["error", "never"],
     "generator-star-spacing": ["error", { "before": true, "after": true }],
     "handle-callback-err": ["error", "^(err|error)$" ],
