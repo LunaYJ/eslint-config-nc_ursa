@@ -2,7 +2,7 @@
   "name": "eslint-config-nc_ursa",
   "version": "0.1.0",
   "description": "Normcore URSA NHU js rule",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "lint": "eslint test/test.js",
     "lint-fix": "eslint test/test.js --fix"
