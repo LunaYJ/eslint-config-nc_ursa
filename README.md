@@ -2,9 +2,26 @@
 
 诺锞 PT事业部URSA 前端js规范
 
-参考了 [JavaScript Standard Style](https://standardjs.com/readme-zhcn.html) 规范 并根据 公司前端成员习惯 做了一些修改调整
+借鉴和参考了 [JavaScript Standard Style](https://standardjs.com/readme-zhcn.html)、 [Google JavaScript style guide (ES2015+ version)](https://google.github.io/styleguide/jsguide.html)   并根据 公司前端成员习惯 做了一些修改调整
 
 ---
+
+## Install
+```npm
+npm install eslint-config-nc_ursa --save-dev
+```
+
+## Usage
+If the `eslint-config-nc_ursa` package is installed, you can use it by specifying `nc_ursa` in the extends section of your ESLint configuration.
+
+```json
+{
+  "extends": "nc_ursa",
+  "rules": {
+    // your extra rule
+  }
+}
+```
 
 ## 细则
 ### 禁止
@@ -1173,3 +1190,8 @@
 * 允许 console
 
   eslint: no-console
+
+
+## License
+
+MIT License
