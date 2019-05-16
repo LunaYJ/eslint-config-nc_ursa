@@ -2,7 +2,7 @@
 
 诺锞 PT事业部URSA 前端js规范
 
-借鉴和参考了 [JavaScript Standard Style](https://standardjs.com/readme-zhcn.html)、 [Google JavaScript style guide (ES2015+ version)](https://google.github.io/styleguide/jsguide.html)   并根据 公司前端成员习惯 做了一些修改调整
+借鉴和参考了 [JavaScript Standard Style](https://standardjs.com/readme-zhcn.html)、 [Google JavaScript style guide (ES2015+ version)](https://google.github.io/styleguide/jsguide.html)   并随机调查了本司前端er的日常开发习惯 做了一些修改调整
 
 ---
 
