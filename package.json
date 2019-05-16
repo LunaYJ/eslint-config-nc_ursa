@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nc_ursa",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Normcore URSA NHU js rule",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LunaYJ/eslint-config-nc_ursa.git"
+    "url": "git+https://github.com/nc-ursateam/eslint-config-nc_ursa.git"
   },
   "keywords": [
     "eslint",
