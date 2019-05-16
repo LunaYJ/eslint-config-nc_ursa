@@ -1194,4 +1194,4 @@ If the `eslint-config-nc_ursa` package is installed, you can use it by specifyin
 
 ## License
 
-MIT License Copyright (c) [Luna Shu](https://lunashu.org)
+MIT License Copyright (c) [Luna](https://lunashu.org)
