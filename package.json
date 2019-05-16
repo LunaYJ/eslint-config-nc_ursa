@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nc_ursa",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Normcore URSA NHU js rule",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LunaYJ/eslint-config-nc_ursa/issues"
+    "url": "https://github.com/nc-ursateam/eslint-config-nc_ursa/issues"
   },
-  "homepage": "https://github.com/LunaYJ/eslint-config-nc_ursa#readme",
+  "homepage": "https://github.com/nc-ursateam/eslint-config-nc_ursa#readme",
   "devDependencies": {
     "eslint": "^5.16.0"
   },
