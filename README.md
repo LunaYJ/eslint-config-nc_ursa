@@ -50,8 +50,8 @@ If the `eslint-config-nc_ursa` package is installed, you can use it by specifyin
 	
 	```js
 	function myFunction() { 
-	  var result = something() // ✗ avoid
-	}
+	  var result = something(); // ✗ avoid
+	};
 	```
 
 * 关键字后面加空格。  
@@ -68,11 +68,11 @@ If the `eslint-config-nc_ursa` package is installed, you can use it by specifyin
   eslint: space-before-function-paren
 	
 	```js
-	function name(arg) { ... }   // ✓ ok
-	function name (arg) { ... }    // ✗ avoid
+	function name(arg) { ... };   // ✓ ok
+	function name (arg) { ... };    // ✗ avoid
 	 
-	run(function () { ... })      // ✓ ok
-	run(function() { ... })       // ✗ avoid
+	run(function () { ... });      // ✓ ok
+	run(function() { ... });       // ✗ avoid
 	```
 	
 * 始终使用 === 替代 ==。  
@@ -95,7 +95,7 @@ If the `eslint-config-nc_ursa` package is installed, you can use it by specifyin
 	```js
 	// ✓ ok
 	var list = [1, 2, 3, 4];
-	function greet(name, options) { ... }
+	function greet(name, options) { ... };
 	```
 * else 关键字要与花括号保持在同一行。
   
