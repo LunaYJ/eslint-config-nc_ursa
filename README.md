@@ -1151,7 +1151,7 @@ If the `eslint-config-nc_ursa` package is installed, you can use it by specifyin
 
   eslint: [no-unused-labels](https://cn.eslint.org/docs/rules/no-unused-labels)
   
-* 禁用函数内没有yield的 generator 函数
+* 禁用函数内没有 yield 的 generator 函数
 
   eslint: [require-yield](https://cn.eslint.org/docs/rules/require-yield)
   
