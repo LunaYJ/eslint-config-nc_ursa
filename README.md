@@ -24,7 +24,7 @@ If the `eslint-config-nc_ursa` package is installed, you can use it by specifyin
 ```
 
 ## 细则
-### 禁止
+### 禁止 error
 * 使用两个空格进行缩进。  
 
 	eslint: indent
@@ -1171,7 +1171,7 @@ If the `eslint-config-nc_ursa` package is installed, you can use it by specifyin
 	}
 	function* foo() { }
 	```
-### 警告
+### 警告 warn
 
 * 正确使用 ES6 中的字符串模板。（ES3/5 下请忽略这条警告）
   
@@ -1181,7 +1181,7 @@ If the `eslint-config-nc_ursa` package is installed, you can use it by specifyin
   
   eslint: no-trailing-spaces
 
-### 允许 (相比*eslint:recommended*)
+### 关闭 off (相对 *eslint:recommended*)
 
 * 允许在 case 子句中使用词法声明
 
