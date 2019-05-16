@@ -12,7 +12,7 @@ npm install eslint-config-nc_ursa --save-dev
 ```
 
 ## Usage
-If the `eslint-config-nc_ursa` package is installed, you can use it by specifying `nc_ursa` in the extends section of your ESLint configuration.
+If the `eslint-config-nc_ursa` package is installed, you can use it by specifying `nc_ursa` in the extends section of your ESLint configuration( .eslintrc.js / .eslintrc.json / .eslintrc.yml).
 
 ```js
 {
