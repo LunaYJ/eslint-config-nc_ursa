@@ -31,7 +31,8 @@
   },
   "homepage": "https://github.com/nc-ursateam/eslint-config-nc_ursa#readme",
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "husky": "^2.3.0"
   },
   "peerDependencies": {
     "eslint": ">= 5"
