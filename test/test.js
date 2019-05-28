@@ -4,7 +4,7 @@ function foo() {
   console.log(b);
 
   var err = 'err';
-  throw err
+  throw err;
 }
 console.log(foo());
 
