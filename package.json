@@ -11,7 +11,6 @@
   },
   "lint-staged": {
     "*.js": [
-      "echo Hi pre-commit",
       "eslint --fix",
       "git add"
     ]
