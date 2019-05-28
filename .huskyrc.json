@@ -1,5 +1,5 @@
 {
     "hooks": {
-        "pre-commit": "npm run hi-husky && npm run lint-fix && git add && npm run prepush"
+        "pre-commit": "lint-staged"
     }
 }
