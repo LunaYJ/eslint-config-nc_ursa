@@ -8,6 +8,10 @@
     "lint-fix": "eslint test/test.js --fix",
     "hi-husky": "echo Hi Husky"
   },
+  "pre-commit": [
+    "hi-husky",
+    "lint-fix"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nc-ursateam/eslint-config-nc_ursa.git"
@@ -27,7 +31,8 @@
   },
   "homepage": "https://github.com/nc-ursateam/eslint-config-nc_ursa#readme",
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "pre-commit": "^1.2.2"
   },
   "peerDependencies": {
     "eslint": ">= 5"
