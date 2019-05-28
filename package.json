@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint test/test.js",
     "lint-fix": "eslint test/test.js --fix",
-    "hi-husky": "echo Hi Husky"
+    "hi-husky": "echo Hi Husky",
+    "prepush": "echo ready to push"
   },
   "pre-commit": [
     "hi-husky",

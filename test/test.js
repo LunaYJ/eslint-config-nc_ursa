@@ -3,7 +3,7 @@ function foo() {
 
   console.log(b);
 
-  var err = 'err';
+  var err = 'err'
   throw err;
 }
 console.log(foo());

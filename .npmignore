@@ -1,5 +1,6 @@
 .idea
 test
+.huskyrc.json
 ### Node template
 # Logs
 logs
