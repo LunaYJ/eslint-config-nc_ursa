@@ -1,21 +1,22 @@
 module.exports = {
-  'env': {
-    'browser': true,
-    'es6': true,
-    'node': true
+  env: {
+    browser: true,
+    es6: true,
+    node: true
   },
-  'globals': {
-    'Atomics': 'readonly',
-    'SharedArrayBuffer': 'readonly'
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly'
   },
-  'parserOptions': {
-    'ecmaVersion': 2018,
-    'sourceType': 'module',
-    'ecmaFeatures': {
-      'jsx': true
-    }
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true
+    },
+    parser: '@typescript-eslint/parser',
   },
-  'rules': {
+  rules: {
     'accessor-pairs': 'error',
     'arrow-spacing': ['error', { 'before': true, 'after': true }],
     'block-spacing': ['error', 'always'],
