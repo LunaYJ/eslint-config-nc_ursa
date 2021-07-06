@@ -34,6 +34,6 @@ jobs:
         GITHUB_EMAIL: "luna_yj@hotmail.com"
         GITHUB_USERNAME: "卢纳黍"
         PUBLISH_REPO: https://mwcBpMGFbf:af38880e7423beae5a5d352f557696f51692d6da@e.coding.net/lunashu/eslint-config-nc_ursa/eslint-config-nc_ursa.git
-        PUBLISH_BRANCH: github-action
+        PUBLISH_BRANCH: master
         PUBLISH_DIR: ./
       # DEPLOY_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
