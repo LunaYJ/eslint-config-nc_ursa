@@ -24,13 +24,16 @@ jobs:
 #      with:
 #        fetch-depth: 0
 
-    # PUSH to Coding
-    - name: Sync to Coding
-      # You may pin to the exact commit or the version.
-      # uses: net-engine/github-repository-sync-action@ab3e4e02cc6c4eed16c22040d7b409ae1d81bce4
-      uses: net-engine/github-repository-sync-action@v1.2.0
+    - name: Sync
+      uses: actions/checkout@v2
       with:
-        # SSH private key for ssh connection to the target repository
-        ssh_private_key: # optional
-        # Target git repository URL
-        target_repo_url: https://mwcBpMGFbf:af38880e7423beae5a5d352f557696f51692d6da@e.coding.net/lunashu/eslint-config-nc_ursa/eslint-config-nc_ursa.git
+        ref: master
+    - name: Push to Coding
+      uses: x-actions/gh-pages@release/v1
+      env:
+        GITHUB_EMAIL: "luna_yj@hotmail.com"
+        GITHUB_USERNAME: "卢纳黍"
+        PUBLISH_REPO: https://mwcBpMGFbf:af38880e7423beae5a5d352f557696f51692d6da@e.coding.net/lunashu/eslint-config-nc_ursa/eslint-config-nc_ursa.git
+        PUBLISH_BRANCH: master
+        PUBLISH_DIR: ./
+      # DEPLOY_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
